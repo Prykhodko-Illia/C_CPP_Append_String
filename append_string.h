@@ -1,14 +1,8 @@
 ﻿#ifndef APPEND_STRING_H
 #define APPEND_STRING_H
 
-#ifdef __cplusplus
 extern "C" {
-#endif
-
-char *append_string(char *, const char *);
-
-#ifdef __cplusplus
+    __declspec(dllexport) char *append_string(char *, const char *);
 }
-#endif
 
 #endif // APPEND_STRING_H
